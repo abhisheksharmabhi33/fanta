@@ -1,0 +1,226 @@
+/* boilarplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* main */
+
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(237, 139, 11); */
+}
+/* cursor anime */
+
+#cursor{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 4;
+}
+#cursor2{
+    width: 12.5px;
+    height: 12.5px;
+    background-color: rgb(21, 34, 225);
+    border-radius: 30%;
+    position: fixed;
+    z-index: 4;
+}
+#cursor3{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(200, 30, 30);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 4;
+}
+/* navbaar */
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;align-items: center;
+    justify-content: space-between;
+    padding: 0vh 10vh;
+    /* background-color: #60900e; */
+}
+nav a,i{
+    text-decoration: none;
+    font-size: 3vh;
+    color: #000;
+}
+nav i{
+    font-size: 3.4vh;
+    margin-right: 230px
+}
+#cntr-nav{
+    display: flex;
+    gap: 5vh;
+      
+}
+/* one */
+
+#one{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 145, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+#fanta{
+    width: 35vh;
+    position: absolute;
+    z-index: 1;
+    transition: all cubic-bezier(0.19,1,0.22,1)0.5s;
+
+}
+#cut-orange{
+    width: 20vh;
+    position: absolute;
+    top: 25VH;
+    right: 49%;
+  
+}
+#fullorange{
+    width: 20vh;
+    position: absolute;
+    top: 60vh;
+    right: 39%;
+
+}
+#sliaf{
+    width: 29vh;
+    position: absolute;
+    top: 3%;
+    right: 0%;
+}
+h1{
+    font-size: 228px;
+    font-weight: 900;
+    color: #000;
+
+
+}
+#leiaf{
+    width: 20vh;
+    position: absolute;
+    top: 55%;
+    right: 147vh;
+}
+/* two */
+#two{
+    width: 100%;
+    height: 110vh;
+    background-color: #165416;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+ 
+}
+#twoldiv{
+    width: 30vw;
+    height: 110vh;
+    background-color: #340b0b;
+    background-image: url(./fanta\ page.jpeg);
+
+}
+#twordiv{
+    width: 70vw;
+    height: 110vh;
+    background-color: #751229;
+    background-image: url(./chair.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+/* three */
+#three{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bgc\ fanta.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+
+}
+#canea{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./brazil.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#blue-fanta{
+     width: 30vh;
+ 
+     
+
+}
+#caneb{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./brazil.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#bfanta{
+    width: 45vh;
+}
+#canec{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./brazil.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#cpepsi{
+    width: 16vh;
+}
+
+
+
+
+
+
+
+/* footer */
+#footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+li{
+    color: #fff;
+}
+
+
